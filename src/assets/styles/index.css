@@ -1,0 +1,22 @@
+* { 
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+body {
+    background: rgb(22, 22, 22);
+    height: 100vh;
+    overflow: hidden;
+}
+.content{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.heads {
+    position: absolute;
+    text-align: center;
+    /* filter: drop-shadow(5px 5px 20px rgba(12, 12, 12, 0.9)); */
+}
